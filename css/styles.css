@@ -1,0 +1,83 @@
+/* * {
+
+    background-color: d1ffff;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap'); */
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo {
+
+    display: block;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.7rem;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 15px;
+    background-color: #d1ffff;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.message {
+
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(198, 198, 198);
+    width: 25vw;
+    margin: 5px 2px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+
+
+}
+
+.left {
+
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#messagesend {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+#messageinp {
+    width: 56vw;
+    height: 4vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    height: 5vh;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
